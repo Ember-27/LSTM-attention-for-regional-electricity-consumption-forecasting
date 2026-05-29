@@ -1,24 +1,19 @@
 # LSTM-attention-for-regional-electricity-consumption-forecasting
-# ⚡ 用电量预测项目 (Electricity Consumption Forecast)
 
 一个基于深度学习的用电量预测项目，使用 **LSTM** 和 **LSTM+Attention** 模型，根据历史用电数据和气象特征预测未来1小时的用电量。
-
 ---
-
-## 📋 项目简介
+## 项目简介
 
 本项目旨在构建和对比两种深度学习模型（LSTM基线模型 vs LSTM+Attention模型），用于预测电力消耗量。项目包含完整的数据处理、可视化、模型训练与评估流程。
 
 ### 核心功能
-- 📊 **数据可视化**：生成6种可视化图表，探索数据规律
-- 🔧 **数据预处理**：自动清洗、归一化、构建时间序列样本
-- 🧠 **深度学习模型**：LSTM基线模型 + LSTM+Attention模型
-- 📈 **模型评估**：MAE、RMSE、MAPE、R² 多指标对比
-- 👁️ **可解释性**：Attention权重可视化，观察模型关注的时间步
-
+-  **数据可视化**：生成6种可视化图表，探索数据规律
+-  **数据预处理**：自动清洗、归一化、构建时间序列样本
+-  **深度学习模型**：LSTM基线模型 + LSTM+Attention模型
+-  **模型评估**：MAE、RMSE、MAPE、R² 多指标对比
+-  **可解释性**：Attention权重可视化，观察模型关注的时间步
 ---
-
-## 📂 数据说明
+##  数据说明
 
 ### 输入数据
 - **文件名**：`powerconsumption.csv`
